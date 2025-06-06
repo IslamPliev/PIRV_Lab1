@@ -4,6 +4,7 @@
 #include <mutex>
 #include <atomic>
 #include <chrono>
+#include <boost/thread.hpp>  
 
 // Функция проверки числа на простоту
 bool is_prime(int n) {
